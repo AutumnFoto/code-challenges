@@ -134,21 +134,23 @@ function roundUp(num) {
 
 // 24
 function addExclamationPoint(str) {
-  return `hey friends!`;
+  return `${str}!`;
 }
+
+
 
 // 25
 function combineNames(firstName, lastName) {
-  return `firstName lastName`;
+  return `${firstName} ${lastName}`;
 }
 
 // 26
 function getGreeting(name) {
-  return `Hello' + 'name' + '!`;
-  // Take the name string and concatenate other strings onto it so it takes the following form:
-  // 'Sam' -> 'Hello Sam!'
-  // code here
+  return `hello ${name}!`;
+
+
 }
+
 
 // The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
