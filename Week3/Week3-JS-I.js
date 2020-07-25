@@ -9,7 +9,7 @@ const newString = 'Autumn'
 const newNum = 30;
 
 //3. create a boolean variable
-const newBool = 'true'
+const newBool = true;
 
 //4. solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -179,7 +179,7 @@ function combineNames(firstName, lastName) {
 // 26
 function getGreeting(name) {
 
-  return 'Hello' + 'name' + '!';
+  return `Hello' + 'name' + '!`;
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
