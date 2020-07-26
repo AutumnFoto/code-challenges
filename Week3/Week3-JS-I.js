@@ -129,7 +129,7 @@ function roundNumber(num) {
 
 // 23
 function roundUp(num) {
-  return Math.ceil(num);
+  return Math.round(num);
 }
 
 // 24
@@ -146,9 +146,7 @@ function combineNames(firstName, lastName) {
 
 // 26
 function getGreeting(name) {
-  return `hello ${name}!`;
-
-
+  return `Hello ${name}!`;
 }
 
 
